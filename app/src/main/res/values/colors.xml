@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Different colors used in application. -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkGrayColor">#696969</color>
+    <color name="toolbarBgColor">#FF5640</color>
+    <color name="statusbarColor">#D33B33</color>
+    <color name="errorRedColor">#FF0033</color>
+    <color name="btnTextColor">#FFF</color>
+    <color name="bgColorGray">#D9E5E5</color>
+    <color name="bgWhiteColor">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="darkBlueTextColor">#216A71</color>
+    <color name="lightGrayColor">#D2CFD0</color>
+</resources>

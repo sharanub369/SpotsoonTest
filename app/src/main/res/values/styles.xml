@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Parent theme. -->
+    <style name="Parent" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/statusbarColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Parent">
+        <item name="android:textColorSecondary">@color/darkBlueTextColor</item>
+    </style>
+
+    <!-- Toolbar title theme. -->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/textSize16</item>
+    </style>
+
+    <!-- Drawer navigation style. -->
+    <style name="navigationDrawerStyle">
+        <item name="android:textSize">16sp</item><!-- text size in menu-->
+        <item name="android:textColor">@color/darkGrayColor</item>
+        <item name="android:listPreferredItemHeightSmall">50dp</item><!-- item size in menu-->
+    </style>
+
+
+    <!-- Sub titles theme. -->
+    <style name="SubTitleTextStyle" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textSize14</item>
+        <item name="android:textColor">@color/darkGrayColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Text view theme. -->
+    <style name="TextStyle" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textSize14</item>
+        <item name="android:textColor">@color/darkGrayColor</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

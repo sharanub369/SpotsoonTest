@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewReLyt"
+    android:layout_width="match_parent"
+    android:layout_height="185dp">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"></VideoView>
+
+    <LinearLayout
+        android:id="@+id/viewLyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/margin20"
+        android:layout_weight="2"
+        android:foregroundGravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding10">
+
+        <ImageView
+            android:id="@+id/playIcon"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            android:src="@drawable/ic_play" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/padding5"
+                android:text="Chine Smoker new Album 2016"
+                android:textColor="@color/lightGrayColor"
+                android:textSize="@dimen/textSize14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/padding5"
+                android:text="Chine Smoker new Album 2016"
+                android:textColor="@color/lightGrayColor"
+                android:textSize="@dimen/textSize12" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
